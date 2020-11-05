@@ -1,0 +1,17 @@
+[metadata]
+name = '{{cookiecutter.project_name}}'
+version = '0.0.1'
+description = '{{cookiecutter.project_description}}'
+author = '{{cookiecutter.project_author}}'
+author_email = '{{cookiecutter.project_author_email}}'
+license = 'MIT'
+url = '{{cookiecutter.project_url}}'
+
+[requires]
+python_version = ['3.6', '3.7']
+
+[build-system]
+requires = ['setuptools', 'wheel']
+
+[tool.hatch.commands]
+prerelease = 'hatch build'

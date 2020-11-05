@@ -1,0 +1,15 @@
+[run]
+source =
+    {{cookiecutter.project_slug}}
+    tests
+branch = True
+omit =
+    {{cookiecutter.project_slug}}/cli.py
+
+[report]
+exclude_lines =
+    no cov
+    no qa
+    noqa
+    pragma: no cover
+    if __name__ == .__main__.:
