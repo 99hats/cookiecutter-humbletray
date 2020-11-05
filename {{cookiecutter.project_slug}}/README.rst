@@ -18,5 +18,5 @@ Python 2.7/3.5+ and PyPy.
 License
 -------
 
-TestHumbleTray is distributed under the terms of the
+{{cookiecutter.project_name}} is distributed under the terms of the
 `MIT License <https://choosealicense.com/licenses/mit>`_.
