@@ -1,7 +1,7 @@
 {
-    'project_name': 'MyProject',
-    'project_slug': 'my_project',
-    'project_author': 'me',
-    'project_author_email': 'me@me.com',
-    'project_url': "https://www.github.com"
+    "project_name": "MyProject",
+    "project_slug": "my_project",
+    "project_author": "me",
+    "project_author_email": "me@me.com",
+    "project_url": "https://www.github.com"
 }
